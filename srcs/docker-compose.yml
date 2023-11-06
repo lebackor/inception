@@ -69,13 +69,13 @@ volumes:
     driver_opts:
       type: 'none'
       o: 'bind'
-      device: '/home/len/data/mariadb'
+      device: '/home/debian/data/mariadb'
   wordpress:
     driver: local
     driver_opts:
       type: 'none'
       o: 'bind'
-      device: '/home/len/data/wordpress'
+      device: '/home/debian/data/wordpress'
 
 networks:
   inception:
